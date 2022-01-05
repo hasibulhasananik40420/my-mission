@@ -1,0 +1,44 @@
+body{
+    font-family: 'Luxurious Roman', cursive;
+}
+.oneside-border{
+    border-left: 5px solid;
+    border-image: linear-gradient(deepskyblue,dodgerblue);
+    border-image-slice: 1;
+    padding-left: 8px;
+    
+}
+
+h1{
+    font-size: 45px;
+}
+.half-width1 p{
+    padding-bottom: 20px;
+}
+.paragraph{
+    padding-top: 25px;
+    font-size: 0.8rem;
+}
+.color-name{
+   color: coral;
+}
+section{
+    display: flex;
+    margin-left: 80px;
+}
+.half-width1{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width1 img{
+    width: 70%;
+}
+.btn{
+    background-image: linear-gradient(deepskyblue,dodgerblue);
+    padding: 12px 35px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+
+    
+}
