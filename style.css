@@ -1,5 +1,7 @@
 body{
     font-family: 'Luxurious Roman', cursive;
+    margin: 0 ;
+    padding: 0;
 }
 .oneside-border{
     border-left: 5px solid;
@@ -41,4 +43,82 @@ section{
     border-radius: 8px;
 
     
+}
+.title{
+    text-align: center;
+}
+.parent-div{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-left: 65px;
+}
+.card{
+  width: 25%;
+  padding: 15px;
+  margin-left: 20px;
+  border-radius: 10px;
+  color:black;
+  box-shadow: 2px 3px 10px grey;
+  background-color: plum;
+}
+.card2{
+    width: 25%;
+    padding: 15px;
+    margin-left: 20px;
+    border-radius: 10px;
+    color:black;
+    box-shadow: 2px 3px 10px grey;
+    background-color: slateblue;
+  }
+  .card3{
+    width: 25%;
+    padding: 15px;
+    margin-left: 20px;
+    border-radius: 10px;
+    color:black;
+    box-shadow: 2px 3px 10px grey;
+    background-color: rosybrown;
+  }
+.card img{
+    width: 40%;
+}
+.card2 img{
+    width: 40%;
+}
+.card3 img{
+    width: 40%;
+}
+.community{
+    margin-top: 80px;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+
+}
+.my-card{
+    width: 40%;
+    border-radius: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: grey;
+
+}
+.about-me{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.my-card img{
+    width: 40%;
+}
+.footer p{
+    color: slategray;
+    font-size: 0.7rem;
+}
+.footer-color{
+    color: white;
 }
